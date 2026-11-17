@@ -1,0 +1,1087 @@
+import type { Dictionary } from "./tr";
+
+/**
+ * Textes français. Écrits pour ceux qui exploitent réellement une plateforme — direction technique,
+ * paiements, trading — et non pour une plaquette. Chiffres au format français (590 418 · 97,2 %).
+ */
+const fr: Dictionary = {
+  site: {
+    name: "Gamb Gaming",
+    tagline: "B2B / iGAMING",
+  },
+
+  meta: {
+    home: {
+      title: "Gamb Gaming — votre partenaire technologique en iGaming",
+      description:
+        "Sportsbook, casino, paiements, bonus, CRM, risque et IA pour opérateurs licenciés. Mise en place et exploitation avec une seule équipe.",
+    },
+    products: {
+      title: "Produits et modules iGaming — Gamb Gaming",
+      description:
+        "Sportsbook, agrégation casino, portefeuille commun, paiements, CRM, bonus, affiliation, risque et IA : les 32 modules d'une exploitation iGaming sur une seule plateforme.",
+    },
+    technology: {
+      title: "Architecture de plateforme iGaming et API — Gamb Gaming",
+      description:
+        "Intégration orientée API, services modulaires, couche de données commune et sécurité intégrée. Une infrastructure qui se comporte de la même façon les soirs de gros match.",
+    },
+    cases: {
+      title: "Études de cas : lancement, migration, multimarque — Gamb Gaming",
+      description:
+        "Un lancement depuis zéro, une migration sans coupure et une seconde marque : trois scénarios représentatifs, leurs risques et les parades prévues.",
+    },
+    packages: {
+      title: "Offres et périmètres : Launch, Scale, Enterprise — Gamb Gaming",
+      description:
+        "Périmètres de départ pour les nouvelles exploitations, les opérateurs en croissance et les groupes multimarques. Le prix est établi après le cadrage.",
+    },
+    demo: {
+      title: "Planifier une démo — Gamb Gaming",
+      description:
+        "Parcourez la plateforme avec l'équipe technique : vos objectifs, les modules et un plan de départ en un seul rendez-vous.",
+    },
+    blog: {
+      title: "Blog : notes sur l'infrastructure iGaming — Gamb Gaming",
+      description:
+        "Choix de plateforme, intégration, paiements, risque et exploitation — écrit pour les équipes qui cherchent un fournisseur.",
+    },
+    notfound: {
+      title: "Page introuvable — Gamb Gaming",
+      description: "La page a été déplacée, ou l'adresse a été mal saisie.",
+    },
+  },
+
+  nav: {
+    home: "Accueil",
+    products: "Produits",
+    technology: "Technologie",
+    cases: "Études de cas",
+    packages: "Offres",
+    blog: "Blog",
+    demo: "Planifier une démo",
+    menu: "Menu",
+    close: "Fermer",
+    mainNav: "Menu principal",
+    mobileNav: "Menu mobile",
+    skip: "Aller au contenu",
+    language: "Langue",
+    logoLabel: "Accueil Gamb Gaming",
+    menuNote: ["Technologie B2B réservée aux opérateurs licenciés.", "Aucune assistance aux joueurs ni aux particuliers."],
+  },
+
+  footer: {
+    headline: ["La technologie", "derrière le jeu."],
+    copy: "Partenaire technologique et opérationnel de bout en bout pour les opérateurs iGaming licenciés.",
+    explore: "Explorer",
+    products: "Produits",
+    pagesLabel: "Pages",
+    cardTitle: "Parcourons la plateforme ensemble.",
+    cardCopy: "Dites-nous ce que vous montez ; nous bâtirons la visite autour de votre exploitation.",
+    legal:
+      "Gamb Gaming fournit des services technologiques et opérationnels exclusivement à des opérateurs licenciés. Aucun service de jeu, de pari ou de compte n'est proposé aux particuliers. L'étendue des prestations dépend de la réglementation du marché sur lequel l'opérateur est licencié.",
+    rights: "Tous droits réservés.",
+    top: "Haut de page",
+  },
+
+  heroes: {
+    home: {
+      title: ["Votre partenaire", "technologique en iGaming."],
+      description:
+        "Sportsbook, casino, paiements, bonus, CRM, risque et IA pour opérateurs licenciés. Mise en place et exploitation avec une seule équipe.",
+    },
+    products: {
+      title: ["Toute l'exploitation,", "sur une plateforme."],
+      description:
+        "{modules} modules répartis en {groups} domaines : du jeu au retrait, du bonus au risque. Commencez par ce dont vous avez besoin ; le reste attend votre feu vert.",
+    },
+    technology: {
+      title: ["Le trafic monte.", "Le jeu continue."],
+      description:
+        "Intégration orientée API, services modulaires et couche de données commune — conçus pour le soir le plus chargé de la saison.",
+      bullets: ["Orienté API", "Modulaire", "Portefeuille commun", "Accès par rôle"],
+    },
+    cases: {
+      title: ["Monter une exploitation,", "cela se planifie."],
+      description:
+        "Nouveaux lancements, migrations maîtrisées et croissance multimarque. Trois scénarios représentatifs.",
+    },
+    packages: {
+      title: ["Bâtir aujourd'hui.", "Laisser demain ouvert."],
+      description:
+        "Pas de formules toutes faites. Un point de départ adapté à votre exploitation et un périmètre qui s'élargit avec vous.",
+    },
+  },
+
+  home: {
+    stats: [
+      { value: "100 %", label: "AU SERVICE DU CLIENT" },
+      { value: "14 jours", label: "PLAN DE LANCEMENT VISÉ" },
+      { value: "{modules} modules", label: "UNE SEULE PLATEFORME" },
+    ],
+    heroPrimary: "Découvrir la plateforme",
+    heroSecondary: "Voir nos services",
+    servicesTitle: "Ce qu'on nous demande le plus",
+    servicesCopy: "De la mise en place au quotidien, l'expertise dont votre exploitation a besoin.",
+    services: [
+      { title: "Plateforme et intégration", copy: "Réunir produits, données et processus sur une même colonne vertébrale." },
+      { title: "Exploitation des paiements", copy: "Connexions de paiement, suivi des transactions et rapprochement." },
+      { title: "CRM et gestion des joueurs", copy: "Segmentation, campagnes et cycle de vie." },
+      { title: "Risque et sécurité", copy: "Centraliser identité, accès, limites et règles de risque." },
+      { title: "Gestion de l'affiliation", copy: "Partenariats, commissions et suivi des performances." },
+    ],
+    tileSlogan: "Une seule plateforme suffit à tout couvrir.",
+    tileLink: "Voir tous les modules",
+    consoleTitle: "Votre équipe démarre la journée sur un seul écran.",
+    consoleCopy:
+      "Trading, paiements, CRM et risque regardent les mêmes données. Qui a validé quoi, quelle campagne tourne, quelle transaction attend : tout au même endroit.",
+    consolePoints: [
+      "Des vues organisées selon votre rôle",
+      "Une file commune pour tout ce qui attend validation",
+      "Un filtrage par marque et par marché",
+    ],
+    consoleCta: "Parcourir les produits",
+    platformTitle: "Toute l'exploitation parle la même langue.",
+    platformCopy:
+      "Au lieu d'outils séparés et de rapports recollés à la main, tout — de la première session au retrait — se retrouve dans une couche de données commune.",
+    platformFeatures: [
+      { title: "Une vue joueur unique", copy: "Lire côte à côte compte, portefeuille, jeu et campagnes." },
+      { title: "Une exploitation partagée", copy: "Les équipes produit travaillent avec les mêmes règles, droits et validations." },
+      { title: "Une croissance mesurable", copy: "Suivre canal, produit et segment dans un même modèle de reporting." },
+    ],
+    audienceTitle: "Où que vous en soyez, c'est de là qu'on part.",
+    audienceCopy:
+      "De l'équipe qui ouvre sa première marque au groupe multimarque, le point de départ change ; la destination non.",
+    audiences: [
+      {
+        title: "Première marque à ouvrir",
+        copy: "Licence et équipe sont prêtes ; reste à mettre en ligne produits, paiements et back-office en même temps.",
+        points: ["Périmètre produit de base", "Checklist de lancement", "Formation des équipes"],
+      },
+      {
+        title: "Fatigués des outils éparpillés",
+        copy: "Des équipes qui veulent voir le joueur et le revenu au même endroit plutôt que dans cinq panneaux et un tableur.",
+        points: ["Portefeuille et données partagés", "CRM et segmentation", "Bascule progressive"],
+      },
+      {
+        title: "Ouverture de nouveaux marchés",
+        copy: "Des groupes qui gèrent plusieurs marques et marchés sur une même plateforme, chacun avec ses règles et ses droits.",
+        points: ["Configuration par marque", "Contraintes de marché", "Reporting centralisé"],
+      },
+    ],
+    bandTitle: "Le trafic grimpe. Les performances tiennent.",
+    bandCta: "Découvrir l'architecture",
+    bandFacts: [
+      { title: "Orienté API", copy: "Produits et services externes dialoguent par contrats définis." },
+      { title: "Modulaire", copy: "Un produit se met à jour pendant que les autres continuent de servir." },
+      { title: "Observable", copy: "Santé des services et flux des transactions suivis au même endroit." },
+    ],
+    processTitle: "Du cadrage à la mise en ligne, un chemin net.",
+    processCopy: "À chaque étape, nous fixons ensemble le périmètre, les responsables et les critères d'acceptation.",
+    processSteps: [
+      { title: "Cadrage", copy: "Marché, licence, produits et besoins d'intégration." },
+      { title: "Plan", copy: "Périmètre technique, structure de marques et calendrier de mise en ligne." },
+      { title: "Mise en place", copy: "Environnements, produits, fournisseurs et rôles opérationnels prêts." },
+      { title: "Validation", copy: "Tests de bout en bout, formation et checklist de lancement bouclée." },
+    ],
+    awardsTitle: "Reconnue à l'international.",
+    awardsCopy: "Notre fournisseur a été primé aux EGR B2B, SBC et SiGMA Awards, s'est classé premier aux MiGEA trois années différentes et a été nommé à de nombreuses reprises.",
+    awardsLabel: "Distinctions de notre fournisseur",
+    ctaTitle: "Trouvons le bon point de départ pour votre exploitation.",
+    ctaCopy: "Décrivez vos besoins ; nous dessinerons ensemble le périmètre produit, intégration et migration.",
+  },
+
+  panel: {
+    tabsLabel: "Vues du panneau",
+    general: "Vue d'ensemble",
+    last12: "12 dernières heures",
+    note: "Pour en voir davantage,",
+    noteLink: "planifiez une démo",
+    modulesLabel: "Modules : {group}",
+    overview: {
+      kpis: [
+        { label: "Joueurs actifs", value: "590 418", delta: "+6 %" },
+        { label: "Paris ouverts", value: "1 284 730", delta: "+11 %" },
+        { label: "En attente de validation", value: "214", delta: "−37" },
+      ],
+      chartLabel: "Sessions par heure",
+      rows: [
+        { time: "21:04", text: "12 rencontres retirées pour suspicion de fraude, paris annulés", tag: "Risque" },
+        { time: "21:02", text: "Nouveau fournisseur de jeux ajouté au lobby", tag: "Casino" },
+        { time: "20:57", text: "Campagne du week-end lancée", tag: "CRM" },
+        { time: "20:49", text: "1 380 demandes de retrait mises en file de validation", tag: "Finance" },
+      ],
+    },
+    groups: {
+      "oyun-icerik": {
+        kpis: [
+          { label: "Rencontres en direct", value: "1 846", delta: "−12" },
+          { label: "Sessions casino", value: "212 640", delta: "+9 %" },
+          { label: "Jeux publiés", value: "5 120", delta: "+48" },
+        ],
+        chartLabel: "Paris et tours par heure",
+        stats: {
+          "urun-sportsbook": "1 284 730 paris ouverts",
+          "urun-game-provider": "38 fournisseurs",
+          "urun-canli-casino": "412 tables ouvertes",
+          "urun-sanal-espor": "96 événements",
+          "urun-hizli-oyunlar": "18 400 tours / h",
+          "urun-turnuva-jackpot": "7 tournois",
+        },
+      },
+      "oyuncu-hesap": {
+        kpis: [
+          { label: "Joueurs actifs", value: "590 418", delta: "+6 %" },
+          { label: "Inscriptions du jour", value: "8 940", delta: "+4 %" },
+          { label: "Vérifications en attente", value: "1 126", delta: "−180" },
+        ],
+        chartLabel: "Connexions par heure",
+        stats: {
+          "urun-oyuncu-hesap": "590 418 actifs",
+          "urun-cuzdan": "0 écart de solde",
+          "urun-kyc": "1 126 en file",
+          "urun-sorumlu-oyun": "3 480 limites actives",
+        },
+      },
+      "odeme-finans": {
+        kpis: [
+          { label: "Dépôts validés", value: "97,2 %", delta: "+0,4" },
+          { label: "Retraits en attente", value: "1 380", delta: "−96" },
+          { label: "Rapprochement", value: "99,98 %", delta: "+0,01" },
+        ],
+        chartLabel: "Transactions par heure",
+        stats: {
+          "urun-gambpay": "842 300 transactions",
+          "urun-finans": "14 règlements ouverts",
+          "urun-kripto": "12 % de part",
+        },
+      },
+      "buyume-pazarlama": {
+        kpis: [
+          { label: "Campagnes en cours", value: "17", delta: "+2" },
+          { label: "Bonus distribués", value: "18 930", delta: "+12 %" },
+          { label: "Joueurs revenus", value: "31 240", delta: "+18 %" },
+        ],
+        chartLabel: "Engagement des campagnes",
+        stats: {
+          "urun-gambcrm": "126 segments",
+          "urun-bonus": "42 bonus actifs",
+          "urun-pazarlama": "9 envois programmés",
+          "urun-gambaffiliate": "1 240 partenaires",
+          "urun-sadakat": "2 310 joueurs VIP",
+          "urun-is-gelistirme": "3 études de marché",
+        },
+      },
+      "risk-uyum": {
+        kpis: [
+          { label: "Alertes ouvertes", value: "57", delta: "+12" },
+          { label: "Comptes en revue", value: "311", delta: "+46" },
+          { label: "Paris annulés", value: "4 218", delta: "aujourd'hui" },
+        ],
+        chartLabel: "Mouvements signalés",
+        stats: {
+          "urun-risk-fraud": "12 rencontres retirées",
+          "urun-aml": "23 dossiers ouverts",
+          "urun-uyum": "2 rapports prêts",
+        },
+      },
+      "veri-yapay-zeka": {
+        kpis: [
+          { label: "Risque de départ élevé", value: "12 480", delta: "joueurs" },
+          { label: "Clics sur recommandations", value: "18,4 %", delta: "+1,1" },
+          { label: "Score de fraude élevé", value: "64", delta: "transactions" },
+        ],
+        chartLabel: "Appels aux modèles",
+        stats: {
+          "urun-ai": "4 modèles en ligne",
+          "urun-bi": "36 tableaux de bord",
+          "urun-veri-akisi": "2,1 M d'événements / h",
+        },
+      },
+      "operasyon-altyapi": {
+        kpis: [
+          { label: "Disponibilité", value: "99,97 %", delta: "30 jours" },
+          { label: "Tickets ouverts", value: "148", delta: "−21" },
+          { label: "Marques actives", value: "6", delta: "+1" },
+        ],
+        chartLabel: "Requêtes par heure",
+        stats: {
+          "urun-arka-ofis": "214 en attente de validation",
+          "urun-cms": "12 publications aujourd'hui",
+          "urun-destek": "148 tickets ouverts",
+          "urun-bayi": "860 agents",
+          "urun-api": "64 ms de réponse",
+          "urun-coklu-marka": "6 marques",
+          "urun-altyapi": "0 alerte ouverte",
+        },
+      },
+    },
+  },
+
+  catalog: {
+    groups: {
+      "oyun-icerik": {
+        name: "Jeu et contenu",
+        summary: "Tout ce que voit le joueur : paris, casino et tous les jeux entre les deux.",
+      },
+      "oyuncu-hesap": {
+        name: "Joueur et compte",
+        summary: "De l'inscription au retrait, chaque étape attachée au compte du joueur.",
+      },
+      "odeme-finans": {
+        name: "Paiement et finance",
+        summary: "L'argent qui entre, l'argent qui sort et les comptes bouclés le soir.",
+      },
+      "buyume-pazarlama": {
+        name: "Croissance et marketing",
+        summary: "Les outils qui amènent le joueur, le gardent et le rappellent.",
+      },
+      "risk-uyum": { name: "Risque et conformité", summary: "Les règles qui protègent la caisse, la licence et le joueur." },
+      "veri-yapay-zeka": {
+        name: "Données et IA",
+        summary: "Décider à partir des données et des modèles, pas d'une intuition.",
+      },
+      "operasyon-altyapi": {
+        name: "Exploitation et infrastructure",
+        summary: "Les outils du quotidien et le socle sur lequel tout repose.",
+      },
+    },
+    modules: {
+      "urun-sportsbook": {
+        name: "Sportsbook",
+        tag: "",
+        description: "Piloter l'avant-match et le direct depuis un seul endroit.",
+        items: [
+          "Parcours avant-match et en direct",
+          "Configuration des cotes, limites et marges",
+          "Constructeur de pari et encaissement anticipé",
+          "Parcours de pari, remboursement et annulation",
+        ],
+      },
+      "urun-game-provider": {
+        name: "Agrégation de fournisseurs de jeux",
+        tag: "",
+        description: "Brancher les fournisseurs casino via une seule intégration ; gérer catalogue et lobby.",
+        items: [
+          "Plusieurs fournisseurs, une seule API",
+          "Catalogue de jeux et agencement du lobby",
+          "Visibilité des jeux par marché",
+          "Rapports et rapprochement par fournisseur",
+        ],
+      },
+      "urun-canli-casino": {
+        name: "Casino en direct",
+        tag: "",
+        description: "Proposer tables en direct et jeux avec croupier sur le même portefeuille.",
+        items: [
+          "Lobby des tables en direct",
+          "Limites de table et visibilité",
+          "Passage sans rupture sur un portefeuille commun",
+          "Historique des sessions et des paris",
+        ],
+      },
+      "urun-sanal-espor": {
+        name: "Virtuels et e-sport",
+        tag: "",
+        description: "Du contenu à parier à toute heure, indépendamment du calendrier.",
+        items: [
+          "Ligues virtuelles et courses",
+          "Marchés e-sport",
+          "Profils de limite et de marge distincts",
+          "Pari commun avec le sportsbook",
+        ],
+      },
+      "urun-hizli-oyunlar": {
+        name: "Jeux rapides",
+        tag: "",
+        description: "Un catalogue prêt de tours courts : crash, dés, mines.",
+        items: [
+          "Catalogue de jeux à tours courts",
+          "Résultats de tour vérifiables",
+          "Réglage de la marge par jeu",
+          "Mise en avant dans le lobby",
+        ],
+      },
+      "urun-turnuva-jackpot": {
+        name: "Tournois et jackpots",
+        tag: "",
+        description: "Transformer le jeu en course avec classements et cagnottes.",
+        items: [
+          "Modèles de tournoi et calendrier",
+          "Classements en direct",
+          "Cagnottes progressives",
+          "Règles de distribution des gains",
+        ],
+      },
+      "urun-oyuncu-hesap": {
+        name: "Gestion des comptes joueurs",
+        tag: "",
+        description: "Inscription, profil, sessions et états de compte au même endroit.",
+        items: [
+          "Parcours d'inscription et de connexion",
+          "Profil, étiquettes et notes",
+          "Statut du compte et restrictions",
+          "Tout l'historique du joueur sur un écran",
+        ],
+      },
+      "urun-cuzdan": {
+        name: "Portefeuille commun",
+        tag: "",
+        description: "Un seul solde sur tous les produits ; chaque mouvement au grand livre.",
+        items: [
+          "Solde réel et solde bonus séparés",
+          "Multidevise",
+          "Grand livre des transactions",
+          "Correction de solde avec validation",
+        ],
+      },
+      "urun-kyc": {
+        name: "KYC et vérification d'identité",
+        tag: "",
+        description: "Brancher les prestataires de vérification sur l'inscription et le retrait.",
+        items: [
+          "Dépôt de documents et file de revue",
+          "Intégrations de prestataires de vérification",
+          "Règles de vérification par marché",
+          "Contrôle d'âge et d'adresse",
+        ],
+      },
+      "urun-sorumlu-oyun": {
+        name: "Jeu responsable",
+        tag: "",
+        description: "Limites, pauses et auto-exclusion font partie du compte joueur.",
+        items: [
+          "Limites de dépôt, de perte et de temps",
+          "Pause et auto-exclusion",
+          "Rappels de durée de session",
+          "Signaux de comportement à risque",
+        ],
+      },
+      "urun-gambpay": {
+        name: "gambpay",
+        tag: "Paiement",
+        description: "Suivre les parcours de paiement, les états de transaction et les étapes de validation.",
+        items: [
+          "Parcours de dépôt et de retrait",
+          "Limites et routage par méthode",
+          "Droits et étapes de validation",
+          "Suivi du statut des transactions",
+        ],
+      },
+      "urun-finans": {
+        name: "Finance et rapprochement",
+        tag: "",
+        description: "Caisse, règlements et clôture du jour dans un même tableau.",
+        items: [
+          "Rapprochement quotidien et périodique",
+          "Rapports GGR / NGR et revenus",
+          "Règlements fournisseurs et partenaires",
+          "Export pour la comptabilité",
+        ],
+      },
+      "urun-kripto": {
+        name: "Paiements en crypto",
+        tag: "",
+        description: "Dépôts et retraits en crypto ; même portefeuille, mêmes règles.",
+        items: [
+          "Plusieurs réseaux et actifs",
+          "Conversion automatique",
+          "Surveillance des adresses et des transactions",
+          "Règles de validation des retraits",
+        ],
+      },
+      "urun-gambcrm": {
+        name: "gambcrm",
+        tag: "CRM",
+        description: "Transformer les données joueur en actions mesurables.",
+        items: [
+          "Segments et montage de campagnes",
+          "Cycle de vie du joueur",
+          "Déclencheurs en temps réel",
+          "Mesure des résultats de campagne",
+        ],
+      },
+      "urun-bonus": {
+        name: "Gestion des bonus",
+        tag: "",
+        description: "Concevoir les bonus avec leurs règles, leur budget et leurs conditions de mise.",
+        items: [
+          "Bonus de bienvenue, de dépôt et de perte",
+          "Paris gratuits et tours gratuits",
+          "Règles de mise et de validité",
+          "Budget bonus et contrôle des abus",
+        ],
+      },
+      "urun-pazarlama": {
+        name: "Automatisation marketing",
+        tag: "",
+        description: "Planifier les campagnes, les diffuser sur les canaux, mesurer le retour.",
+        items: [
+          "Calendrier de campagnes et codes promo",
+          "E-mail, SMS et notifications",
+          "Bannières et pages d'atterrissage sur le site",
+          "Retour par canal et par campagne",
+        ],
+      },
+      "urun-gambaffiliate": {
+        name: "gambaffiliate",
+        tag: "Affiliation",
+        description: "Développer votre réseau de partenaires sur des chiffres visibles des deux côtés.",
+        items: [
+          "Modèles de commission",
+          "Suivi des campagnes et du trafic",
+          "Portail partenaire et périodes de règlement",
+          "Structures de sous-affiliation",
+        ],
+      },
+      "urun-sadakat": {
+        name: "Fidélité et VIP",
+        tag: "",
+        description: "Gérer la fidélité par paliers, points et privilèges.",
+        items: [
+          "Système de paliers et de points",
+          "Outils pour les gestionnaires VIP",
+          "Offres personnalisées",
+          "Règles de remise sur pertes",
+        ],
+      },
+      "urun-is-gelistirme": {
+        name: "Développement commercial",
+        tag: "Service",
+        description: "De l'entrée sur un marché aux accords fournisseurs, nous bâtissons le plan de croissance avec vous.",
+        items: [
+          "Analyse du marché et de la concurrence",
+          "Choix des fournisseurs et partenaires de paiement",
+          "Plan de lancement et de croissance",
+          "Revue de performance périodique",
+        ],
+      },
+      "urun-risk-fraud": {
+        name: "Gestion du risque et de la fraude",
+        tag: "",
+        description: "Repérer tôt les comportements suspects de compte, de bonus et de pari.",
+        items: [
+          "Rapprochement multicompte et appareil",
+          "Règles contre l'abus de bonus",
+          "Profils de risque sur paris et limites",
+          "File de revue et dossiers de cas",
+        ],
+      },
+      "urun-aml": {
+        name: "LCB-FT et surveillance des transactions",
+        tag: "",
+        description: "Surveiller et documenter les mouvements d'argent inhabituels par des règles.",
+        items: [
+          "Règles de seuil et de schéma",
+          "Parcours de demande d'origine des fonds",
+          "Enregistrement des transactions suspectes",
+          "Un historique prêt pour l'audit",
+        ],
+      },
+      "urun-uyum": {
+        name: "Conformité et rapports réglementaires",
+        tag: "",
+        description: "Produire depuis le panneau les rapports exigés par l'autorité.",
+        items: [
+          "Modèles de rapport par marché",
+          "Journaux d'audit inaltérables",
+          "Règles de conservation des données",
+          "Rapports de droits et d'accès",
+        ],
+      },
+      "urun-ai": {
+        name: "Modules d'IA",
+        tag: "IA",
+        description: "Brancher les modèles de prédiction et de recommandation sur les décisions quotidiennes.",
+        items: [
+          "Recommandations de jeux et de paris",
+          "Prédiction du risque de départ",
+          "Score de fraude et de risque",
+          "Assistant IA pour l'équipe d'exploitation",
+        ],
+      },
+      "urun-bi": {
+        name: "BI et reporting",
+        tag: "",
+        description: "Performance produit, canal et segment sur des définitions communes.",
+        items: [
+          "Tableaux de bord prêts à l'emploi",
+          "Générateur de rapports sur mesure",
+          "Envoi programmé des rapports",
+          "Export vers votre entrepôt de données",
+        ],
+      },
+      "urun-veri-akisi": {
+        name: "Flux de données en temps réel",
+        tag: "",
+        description: "Faire passer les événements joueur et transaction dans vos systèmes à l'instant même.",
+        items: [
+          "Flux d'événements et webhooks",
+          "Déclencheurs de segment",
+          "Tableaux de métriques en direct",
+          "Intégrations d'outils tiers",
+        ],
+      },
+      "urun-arka-ofis": {
+        name: "Back-office",
+        tag: "",
+        description: "Le panneau d'administration où toutes les équipes suivent les mêmes règles.",
+        items: ["Rôles et droits", "Parcours de validation", "Historique des changements", "Vue multimarque"],
+      },
+      "urun-cms": {
+        name: "CMS et interface",
+        tag: "",
+        description: "Gérer l'interface web et mobile, les contenus et les thèmes sans écrire de code.",
+        items: [
+          "Interface web et mobile prête",
+          "Gestion des pages, bannières et menus",
+          "Thèmes de marque",
+          "Multilingue",
+        ],
+      },
+      "urun-destek": {
+        name: "Outils du support client",
+        tag: "",
+        description: "Le support voit le joueur, la transaction et l'historique sur un même écran.",
+        items: [
+          "Gestion des tickets et des dossiers",
+          "Intégration du chat en direct",
+          "Réponses types et étiquettes",
+          "Accès à l'historique joueur en un clic",
+        ],
+      },
+      "urun-bayi": {
+        name: "Gestion des agents et du réseau",
+        tag: "",
+        description: "Piloter votre réseau terrain par hiérarchie, limites et commissions.",
+        items: [
+          "Structure d'agents à plusieurs niveaux",
+          "Distribution des soldes et des limites",
+          "Comptes de commission",
+          "Rapports par agent",
+        ],
+      },
+      "urun-api": {
+        name: "Couche API et intégration",
+        tag: "",
+        description: "Les systèmes externes se branchent par contrats définis.",
+        items: [
+          "Points d'entrée REST et WebSocket",
+          "Environnement bac à sable",
+          "Notifications par webhook",
+          "Documentation versionnée",
+        ],
+      },
+      "urun-coklu-marka": {
+        name: "Multimarque",
+        tag: "",
+        description: "Ouvrir de nouvelles marques et de nouveaux marchés sur la même plateforme.",
+        items: [
+          "Configuration par marque",
+          "Règles de marché et de langue",
+          "Droits et rapports séparés",
+          "Couche joueur et portefeuille partagée",
+        ],
+      },
+      "urun-altyapi": {
+        name: "Infrastructure et supervision",
+        tag: "Service",
+        description: "L'hébergement, la montée en charge et la supervision, nous nous en chargeons.",
+        items: [
+          "Infrastructure cloud infogérée",
+          "Mise à l'échelle automatique",
+          "Supervision et alertes",
+          "Sauvegarde et plan de retour arrière",
+        ],
+      },
+    },
+  },
+
+  products: {
+    indexLabel: "Domaines produit",
+    flowTitle: "{modules} modules, une seule fiche joueur.",
+    flowCopy:
+      "Chaque étape après l'inscription atterrit dans le module concerné ; tout s'écrit sur le même compte et le même portefeuille.",
+    playerFlow: [
+      { step: "Inscription", module: "Comptes joueurs · KYC", copy: "Le compte s'ouvre, la vérification démarre." },
+      { step: "Dépôt", module: "gambpay", copy: "Le paiement est validé, le portefeuille commun se met à jour." },
+      { step: "Jeu", module: "Sportsbook · Casino", copy: "Le même solde sert sur les deux produits." },
+      { step: "Contact", module: "gambcrm · Bonus", copy: "L'activité alimente segments et déclencheurs." },
+      { step: "Origine", module: "gambaffiliate", copy: "Portée au crédit du partenaire qui a amené le joueur." },
+    ],
+    capsTitle: "La même discipline d'exploitation derrière chaque module.",
+    capsCopy:
+      "Les modules s'utilisent séparément ; ensemble, données, droits et reporting passent sans couture.",
+    capabilities: [
+      { title: "Rôles et droits", copy: "Des rôles fins pour que chaque équipe n'atteigne que son périmètre." },
+      { title: "Gestion des règles", copy: "Piloter limites, validations, visibilité et règles d'exploitation au même endroit." },
+      { title: "Historique des changements", copy: "Retracer les changements critiques par utilisateur, heure et résultat." },
+      { title: "Reporting", copy: "Comparer métriques produit et exploitation sur des définitions communes." },
+      { title: "Notifications", copy: "Prévenir la bonne équipe en temps réel sur les opérations et seuils importants." },
+      { title: "Multimarque", copy: "Gérer plusieurs marques et marchés sur une même plateforme, sous contrôle." },
+    ],
+    integrationTitle: "Continuez avec les partenaires que vous avez déjà.",
+    integrationCopy:
+      "Les services fournisseurs, paiement, identité et données se branchent à la plateforme via la couche API, de façon encadrée.",
+    integrationCta: "Voir le dispositif technique",
+    integrationLabel: "Types de services raccordables",
+    integrationTypes: [
+      "Fournisseurs de jeux",
+      "Flux de cotes et de données",
+      "Moyens de paiement",
+      "Vérification d'identité",
+      "Canaux de messagerie",
+      "Entrepôt de données et BI",
+    ],
+    ctaTitle: "Voyez les modules dans de vrais parcours d'exploitation.",
+    ctaCopy: "Planifions une visite produit autour des priorités de votre équipe.",
+  },
+
+  technology: {
+    layersTitle: "Dehors, le jeu. Dedans, l'ingénierie.",
+    layersCopy: "Quatre couches, chacune avec sa responsabilité. Choisissez-en une pour le détail.",
+    layersLabel: "Couches de la plateforme",
+    layersCaption:
+      "Schéma conceptuel. Le modèle de déploiement et le périmètre d'intégration se fixent au cadrage technique.",
+    layers: [
+      {
+        title: "Expérience",
+        summary: "Interface web · Mobile · Administration opérateur",
+        detail:
+          "Le visage que voit le joueur et le back-office qu'utilise votre équipe s'appuient sur les mêmes services. Thème et contenu se gèrent par marque.",
+        parts: ["Interface joueur", "Back-office", "Thèmes de marque", "Gestion de contenu"],
+      },
+      {
+        title: "Accès",
+        summary: "Couche API · Authentification · Autorisation",
+        detail:
+          "Toutes les requêtes passent par une seule porte. Identité, droits et limitation de débit s'appliquent là ; les services internes ne sont jamais exposés.",
+        parts: ["Passerelle API", "Session et identité", "Contrôle des rôles", "Limitation de débit"],
+      },
+      {
+        title: "Services métier",
+        summary: "Paris sportifs · Casino · Paiements · CRM",
+        detail:
+          "Chaque produit tourne dans son propre service et dialogue par contrats définis. L'un se met à jour, les autres continuent de servir.",
+        parts: ["Paris sportifs", "Casino", "Paiements", "CRM", "Affiliation"],
+      },
+      {
+        title: "Données et contrôle",
+        summary: "Données communes · Journaux de transactions · Supervision",
+        detail:
+          "Portefeuille, joueur et transactions vivent dans une couche commune. Chaque changement est consigné ; la santé des services est suivie au centre.",
+        parts: ["Portefeuille commun", "Données joueur", "Journal d'audit", "Supervision et alertes"],
+      },
+    ],
+    principlesTitle: "Prête à grandir, ouverte au changement.",
+    principlesCopy:
+      "La plateforme est bâtie pour faire évoluer les produits indépendamment, protéger les services critiques et mettre en ligne vite de nouvelles connexions.",
+    principles: [
+      { title: "Orientée API", copy: "Produits et services externes communiquent par contrats définis." },
+      { title: "Services modulaires", copy: "De nouveaux besoins s'ajoutent sans reconstruire tout le système." },
+      { title: "Observabilité", copy: "Santé des services, flux des transactions et signaux d'erreur suivis au centre." },
+      { title: "Résilience", copy: "Les parcours critiques sont protégés par reprises contrôlées, files d'attente et isolation." },
+    ],
+    securityTitle: "La sécurité n'est pas une couche ajoutée après coup.",
+    securityCopy:
+      "Accès, journalisation, protection des données et validations d'exploitation font partie du fonctionnement de la plateforme.",
+    securityPoints: [
+      "Accès par rôle et moindre privilège",
+      "Validations et journaux d'audit sur les opérations critiques",
+      "Séparation des données d'environnement, de marque et d'exploitation",
+      "Supervision, alertes et traitement des incidents",
+    ],
+    apiTitle: "Des contrats lisibles, des réponses prévisibles.",
+    apiCopy:
+      "Vos développeurs savent à quoi s'attendre avant de commencer. L'exemple ci-dessous montre à quoi ressemble une opération de portefeuille.",
+    request: "Requête",
+    response: "Réponse",
+    sample: "Exemple illustratif",
+    apiNotes: [
+      {
+        title: "Rejouable sans risque",
+        copy: "Une requête portant la même clé n'est pas traitée deux fois ; après une coupure, réessayer est sans danger.",
+      },
+      {
+        title: "Fondé sur l'état",
+        copy: "Chaque opération porte un état explicite. Les changements remontent à votre système par webhook.",
+      },
+      {
+        title: "Versionné",
+        copy: "Les contrats sont versionnés ; de nouveaux champs s'ajoutent sans casser les intégrations existantes.",
+      },
+    ],
+    apiCaption: "Les points d'entrée et champs réels figurent dans la documentation API remise au cadrage technique.",
+    stepsTitle: "Du branchement au trafic réel, sous contrôle.",
+    integrationSteps: [
+      { title: "Contrat", copy: "Périmètre API et modèle de données" },
+      { title: "Bac à sable", copy: "Développer et tester sans risque" },
+      { title: "Validation", copy: "Scénarios de bout en bout" },
+      { title: "En ligne", copy: "Une ouverture suivie et maîtrisée" },
+    ],
+    ctaTitle: "Examinons ensemble votre architecture actuelle.",
+    ctaCopy:
+      "Parlez des points d'intégration, des risques de migration et du modèle de déploiement conseillé avec notre équipe technique.",
+  },
+
+  cases: {
+    listLabel: "Scénarios",
+    need: "Le besoin",
+    approach: "L'approche",
+    result: "Résultat visé",
+    phasesLabel: "Phases",
+    caseStudies: [
+      {
+        title: "De zéro au premier jour en ligne.",
+        need: "Une équipe dont la licence et l'organisation sont en place, et qui arrive sur le marché avec tous les produits pilotés d'un seul endroit.",
+        approach:
+          "Le périmètre produit de base est arrêté d'abord. La mise en place des marques et des environnements avance en parallèle de l'intégration.",
+        result:
+          "Des parcours essentiels validés, une équipe d'exploitation formée et une checklist de lancement partagée.",
+        phases: ["Périmètre", "Mise en place", "Intégration", "Répétition", "Lancement"],
+      },
+      {
+        title: "Même activité, nouvelles fondations.",
+        need: "Renouveler la base technique sans interrompre une exploitation qui tourne.",
+        approach:
+          "Les flux de données, de portefeuille et de produits sont découpés en phases maîtrisées. Chaque phase avance avec son plan de retour arrière.",
+        result: "Un plan de migration mesurable et une plateforme sur laquelle continuer à bâtir.",
+        phases: ["Inventaire", "Répétition des données", "Marche en parallèle", "Montée du trafic", "Bascule"],
+      },
+      {
+        title: "Seconde marque, même colonne vertébrale.",
+        need: "Un opérateur à marque unique ouvre une seconde marque pour un nouveau marché, avec son équipe et ses règles.",
+        approach:
+          "Le portefeuille et la couche de données communs restent en place. Marque, contraintes de marché et droits se configurent à part.",
+        result: "Une infrastructure partagée, une identité de marque distincte et un reporting qui montre les deux ensemble.",
+        phases: ["Règles du marché", "Structure de marque", "Contenu", "Droits", "Lancement"],
+      },
+    ],
+    caption: "Les scénarios sont illustratifs ; ils ne désignent ni un client ni un résultat réel.",
+    methodTitle: "Chaque projet commence par les mêmes quatre questions.",
+    methodCopy:
+      "Les critères de réussite sont fixés d'emblée ; l'avancement se mesure à ce qui est livré, pas à des hypothèses.",
+    methodQuestions: [
+      { title: "Où allons-nous ?", copy: "Marché cible, périmètre produit et priorités commerciales." },
+      { title: "Que protégeons-nous ?", copy: "L'expérience joueur actuelle, les données et les parcours critiques." },
+      { title: "Que changeons-nous ?", copy: "Plateforme, fournisseurs, processus et responsabilités d'équipe." },
+      { title: "Comment le vérifions-nous ?", copy: "Scénarios de test, critères d'acceptation et mesures à l'ouverture." },
+    ],
+    riskTitle: "Ce qui peut mal tourner, on en parle avant.",
+    riskCopy:
+      "Les quatre risques les plus fréquents d'un projet de migration et ce que le plan prévoit pour chacun.",
+    riskHead: ["Risque", "Parade"],
+    riskTable: [
+      {
+        risk: "Perte ou écart lors de la reprise des données",
+        measure: "Répétitions successives avant l'ouverture et comparaison enregistrement par enregistrement.",
+      },
+      {
+        risk: "Écart sur les soldes du portefeuille",
+        measure: "Rapprochement des soldes au moment de la bascule ; pas de trafic tant que l'écart n'est pas fermé.",
+      },
+      {
+        risk: "Coupure le jour du lancement",
+        measure: "Montée progressive du trafic, tableaux de supervision et étapes de retour arrière écrites à l'avance.",
+      },
+      {
+        risk: "Une équipe qui ne s'approprie pas les nouveaux outils",
+        measure: "Formation par rôle et répétition sur des cas réels avant l'ouverture.",
+      },
+    ],
+    outcomesTitle: "Un plan visible. Des responsabilités nettes. Une ouverture maîtrisée.",
+    outcomes: [
+      { title: "Un périmètre", copy: "Exigences produit et intégration" },
+      { title: "Un calendrier", copy: "Dépendances entre les équipes" },
+      { title: "Un plan d'acceptation", copy: "Critères de test et d'ouverture" },
+    ],
+    ctaTitle: "La prochaine étude de cas pourrait être la vôtre.",
+    ctaCopy: "Pesons ensemble vos priorités pour une nouvelle exploitation ou un changement de plateforme.",
+  },
+
+  packages: {
+    listLabel: "Offres",
+    price: "Devis sur mesure",
+    planCta: "Parlons du périmètre",
+    plans: [
+      {
+        audience: "Pour les nouvelles exploitations",
+        summary: "Le périmètre de base pour ouvrir votre première marque.",
+        items: [
+          "Mise en place des produits de base",
+          "Configuration de la marque",
+          "Plan de mise en ligne",
+          "Back-office et définition des rôles",
+          "Formation au lancement",
+        ],
+      },
+      {
+        audience: "Pour les opérateurs en croissance",
+        summary: "Tous les produits ensemble, les données joueur au même endroit.",
+        items: [
+          "Un écosystème produit unifié",
+          "CRM et segmentation",
+          "Intégration étendue",
+          "Gestion de l'affiliation",
+          "Reporting avancé",
+        ],
+      },
+      {
+        audience: "Pour les projets sur mesure",
+        summary: "Structures multimarques et migrations de plateforme.",
+        items: [
+          "Développements spécifiques",
+          "Planification de la migration",
+          "Modèle d'exploitation dédié",
+          "Plusieurs marques et marchés",
+          "Une équipe projet dédiée",
+        ],
+      },
+    ],
+    includedTitle: "Quel que soit votre choix.",
+    includedCopy: "Le périmètre change ; la façon de travailler non. Ces quatre étapes font partie de chaque projet.",
+    includedInAll: [
+      { title: "Cadrage", copy: "Périmètre, calendrier et responsabilités mis par écrit." },
+      { title: "Bac à sable", copy: "Les intégrations se testent sans risque avant la mise en ligne." },
+      { title: "Formation des équipes", copy: "Chaque rôle apprend ses écrans sur des cas réels." },
+      { title: "Checklist de lancement", copy: "L'ouverture suit des étapes approuvées par tous." },
+    ],
+    compareTitle: "Même socle. Des rythmes différents.",
+    compareCopy:
+      "Les offres ne sont pas une liste figée de produits, mais un cadre pour trouver le bon périmètre de départ.",
+    capability: "Capacité",
+    included: "Inclus",
+    notIncluded: "Non inclus",
+    comparison: [
+      { label: "Plateforme et administration de base", cells: ["Inclus", "Inclus", "Inclus"] },
+      { label: "Sportsbook / Casino", cells: ["Au choix", "Inclus", "Inclus"] },
+      { label: "Exploitation des paiements", cells: ["Base", "Avancé", "Sur mesure"] },
+      { label: "CRM et segmentation", cells: ["Initial", "Avancé", "Sur mesure"] },
+      { label: "Bonus et marketing", cells: ["Base", "Avancé", "Sur mesure"] },
+      { label: "Gestion de l'affiliation", cells: ["En option", "Inclus", "Sur mesure"] },
+      { label: "Risque et fraude", cells: ["Base", "Avancé", "Sur mesure"] },
+      { label: "Modules d'IA", cells: ["—", "En option", "Inclus"] },
+      { label: "Multimarque", cells: ["—", "En option", "Inclus"] },
+      { label: "Migration et personnalisation", cells: ["—", "En option", "Inclus"] },
+    ],
+    faqTitle: "Avant de décider.",
+    faqs: [
+      {
+        question: "Les offres sont-elles figées ?",
+        answer:
+          "Non. Ce sont des cadres de départ ; le périmètre final se fixe après le cadrage, selon vos besoins produit, marché et intégration.",
+      },
+      {
+        question: "Combien de temps jusqu'à la mise en ligne ?",
+        answer:
+          "Cela dépend de l'avancement de la licence, du nombre d'intégrations, de la reprise des données et du processus d'acceptation. Un plan réaliste est remis à l'issue du cadrage.",
+      },
+      {
+        question: "Pouvons-nous garder nos fournisseurs actuels ?",
+        answer:
+          "Une fois la compatibilité technique et les accords commerciaux confirmés, l'intégration de vos fournisseurs existants peut entrer dans le périmètre.",
+      },
+      {
+        question: "Le support à l'exploitation est-il inclus ?",
+        answer:
+          "Formation, mise en ligne et accompagnement continu se planifient selon le modèle de service retenu.",
+      },
+      {
+        question: "Pouvons-nous commencer par un seul produit ?",
+        answer:
+          "Oui. Les modules fonctionnent séparément. Vous pouvez démarrer avec les paiements ou le CRM et ajouter le reste ensuite.",
+      },
+      {
+        question: "Fournissez-vous la licence ?",
+        answer:
+          "Non. Gamb Gaming est un partenaire technologique et opérationnel ; nous travaillons uniquement avec des opérateurs qui détiennent leur licence ou en font la demande.",
+      },
+      {
+        question: "Comment le prix est-il établi ?",
+        answer:
+          "Parce que le périmètre produit, marché et intégration diffère pour chaque exploitation, le prix est proposé après le cadrage.",
+      },
+      {
+        question: "Servez-vous les joueurs directement ?",
+        answer:
+          "Non. Gamb Gaming travaille uniquement avec des entreprises ; aucun service de jeu, de pari ou de compte n'est proposé aux particuliers.",
+      },
+    ],
+    ctaTitle: "Commencez par l'essentiel, grandissez quand vous êtes prêt.",
+    ctaCopy: "Cherchons non pas la bonne offre, mais le bon périmètre.",
+  },
+
+  demo: {
+    title: ["Découvrons", "la plateforme ensemble."],
+    lead: "De vrais parcours. Une visite guidée avec l'équipe technique elle-même.",
+    stepsLabel: "Ce qui se passe pendant le rendez-vous",
+    steps: [
+      { title: "Cadrage", copy: "Vos objectifs et vos priorités." },
+      { title: "Visite produit", copy: "Modules et parcours de travail." },
+      { title: "Prochaines étapes", copy: "Périmètre et plan de départ." },
+    ],
+    fineprint: ["Réservé aux demandes B2B d'opérateurs.", "Aucune assistance aux joueurs ni aux particuliers."],
+    formTitle: "Parlez-nous de votre exploitation.",
+    required: "Les champs marqués * sont obligatoires.",
+    fields: {
+      name: "Nom et prénom",
+      namePh: "Vos nom et prénom",
+      role: "Votre fonction",
+      rolePh: "ex. Directeur des opérations",
+      email: "E-mail professionnel",
+      emailPh: "vous@votreexploitation.com",
+      company: "Société / nom de l'exploitation",
+      companyPh: "Saisissez le nom de l'exploitation",
+      stage: "Étape du projet",
+      stageChoose: "Choisir",
+      products: "Produits qui vous intéressent",
+      message: "En bref, votre besoin",
+      messagePh: "Marché visé, périmètre produit et démarrage envisagé...",
+      website: "Site web",
+      consent:
+        "J'ai lu l'avis de confidentialité. J'accepte que mes informations soient traitées pour répondre à ma demande.",
+    },
+    stages: ["Nouvelle exploitation", "Changement de plateforme", "Croissance"],
+    errors: {
+      name: "Indiquez vos nom et prénom.",
+      email: "Indiquez votre e-mail professionnel.",
+      emailFormat: "Utilisez le format nom@societe.com.",
+      company: "Indiquez le nom de la société ou de l'exploitation.",
+      consent: "Acceptez l'avis de confidentialité pour continuer.",
+      send: "Votre demande n'a pas pu être envoyée. Vérifiez votre connexion et réessayez.",
+    },
+    submit: "Envoyer la demande de démo",
+    sending: "Envoi en cours…",
+    previewHint: "Mode aperçu : le formulaire fonctionne, mais aucune demande n'est réellement envoyée.",
+    thanks: "Merci",
+    sentCopy: "Notre équipe vous recontacte pour examiner votre périmètre.",
+    previewFlag:
+      "Ceci est un aperçu : le formulaire a été validé, mais votre demande n'a été envoyée à aucun serveur et rien n'a été enregistré.",
+    summary: { company: "Société", email: "E-mail", stage: "Étape du projet", products: "Produits" },
+    again: "Faire une nouvelle demande",
+  },
+
+  notfound: {
+    title: ["Cette page", "n'est pas ici."],
+    copy: "L'adresse a changé ou a été mal saisie.",
+    cta: "Retour à l'accueil",
+  },
+
+  blog: {
+    title: ["Notes de terrain.", "Pour ceux qui cherchent une plateforme."],
+    lead: "Choix de plateforme, intégration, paiements, risque et exploitation — écrit depuis le travail réel, pas depuis une plaquette.",
+    latest: "Derniers articles",
+    readMore: "Lire l'article",
+    minutes: "{n} min de lecture",
+    back: "Tous les articles",
+    related: "Cela pourrait aussi vous intéresser",
+    empty: "Aucun article dans cette langue pour l'instant.",
+    author: "L'équipe Gamb Gaming",
+    updated: "Publié le",
+    notFound: "Cet article est introuvable ou a été retiré.",
+    ctaTitle: "Reprenons tout cela sur votre propre exploitation.",
+    ctaCopy: "Posez vos questions directement à l'équipe technique lors d'une visite de la plateforme.",
+  },
+};
+
+export default fr;

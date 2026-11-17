@@ -1,0 +1,78 @@
+# Siteyi derleyip GitHub Pages'e yayınlar.
+#
+# BASE_PATH ve SITE_URL repo adından türetilir: repo "gamb3" ise site
+# https://<kullanici>.github.io/gamb3/ adresinde yayınlanır ve bütün bağlantılar,
+# kanonik adresler, hreflang etiketleri ve site haritası bu öneke göre üretilir.
+# Özel alan adı bağlanırsa (CNAME) aşağıdaki iki satırı o alan adına göre değiştirin.
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Denetimler
+        run: |
+          pnpm exec tsc --noEmit
+          node scripts/check-locales.mjs
+          node scripts/check-posts.mjs
+
+      - name: Derle
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}/
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: pnpm build
+
+      # Jekyll alt çizgiyle başlayan dosyaları atlar; Pages'te bunu kapatıyoruz.
+      - run: touch dist/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+# ── Bu dosya neden .github/workflows altında değil? ──────────────────────────
+# Kullanılan GitHub token'ında `workflow` yetkisi yok; OAuth uygulaması
+# .github/workflows altına dosya yazamıyor. Otomatik yayını açmak için:
+#
+#   gh auth refresh -s workflow
+#   mkdir -p .github/workflows && git mv deploy/pages.yml .github/workflows/pages.yml
+#   git commit -m "ci: Pages yayin akisi" && git push
+#
+# Ardından repo ayarlarından Pages kaynağını "GitHub Actions" yapın.
+# O zamana kadar yayın, yerelde derlenip gh-pages dalına itilen dist/ ile yapılır.
