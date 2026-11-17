@@ -73,12 +73,29 @@ Yapılanlar:
    açıkken çalışır ve yalnızca `content/blog/` altına yazar.
 8. **Belgeler** — `README.md` ve `AGENTS.md` yeni yapıya göre yeniden yazıldı.
 
+Yayın:
+
+- Depo: **brandadverts/gamb3** · Canlı: **https://brandadverts.github.io/gamb3/**
+- `main` kaynak, `gh-pages` derlenmiş çıktı. Yeniden yayın: `./deploy/publish.sh`
+  (BASE_PATH ve SITE_URL `origin`den türetilir).
+- GitHub Actions akışı yazıldı ama `deploy/pages.yml` içinde duruyor: token'da `workflow`
+  yetkisi olmadığı için `.github/workflows/` altına yazılamadı. Açma adımları README'de.
+
+Bu turda düzeltilenler:
+
+- Telefonda (375 px) başlık yatayda taşıyordu: logonun animasyon payı (8,35em) + dil seçici
+  426 px gerektiriyordu. Telefonda pay kaldırıldı.
+- Hero istatistiklerinde İngilizce etiket ("32 modules", 122 px) 111 px'lik sütunda
+  kırpılıyordu. Sütunlar içeriğe göre genişliyor, gerekirse alt satıra iniyor.
+
 Açık kalan:
 
-- Gerçek alan adı hâlâ sorulmadı; yayın derlemesi `SITE_URL=https://… pnpm build` ile yapılmalı.
-- Dağıtım (hosting) adımı kurulmadı; günlük görev yalnızca dosya ekler, canlıya çıkarmaz.
+- Özel alan adı bağlanmadı; şu an GitHub Pages alt klasöründe yayında.
+- Canlıda iki site daha var (brandadverts/gamb kart destesi, brandadverts/gamb2 tek sayfa
+  kurumsal). Üçü farklı marka yönü; hangisinde karar kılınacağı belirlenmedi.
+- `gamb2` deploy'unda canonical, head hreflang, JSON-LD ve og:image yok; TR/EN tek URL'de
+  JS ile değişiyor (arama motoru tek sayfa görüyor).
 - `new-game-releases` konusunun DE, RU ve AR sürümleri hedefin altında (300 – 320 kelime).
-- Git deposu yok.
 
 ## Kullanıcıya açıkça söylenmesi gerekenler
 

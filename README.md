@@ -34,6 +34,35 @@ Kanonik adresler, `hreflang` bağlantıları, site haritası ve RSS bu değerden
 
 Sonra `dist/` klasörünün **içeriğini** barındırma hizmetinize yükleyin.
 
+### GitHub Pages (şu anki yayın)
+
+Site `brandadverts/gamb3` deposundan yayınlanır:
+**https://brandadverts.github.io/gamb3/**
+
+- `main` dalı kaynak kodu tutar.
+- `gh-pages` dalı derlenmiş `dist/` çıktısını tutar; Pages bu daldan yayın yapar.
+- Yeniden yayın tek komuttur:
+
+```bash
+./deploy/publish.sh
+```
+
+Betik, adres önekini (`BASE_PATH`) ve kanonik adresi (`SITE_URL`) `origin` uzak deposundan
+türetir; depo adı değişirse ayrıca bir şey düzenlemek gerekmez.
+
+Yayını GitHub Actions'a devretmek için (her `main` push'unda otomatik derleme):
+
+```bash
+gh auth refresh -s workflow
+mkdir -p .github/workflows && git mv deploy/pages.yml .github/workflows/pages.yml
+git commit -m "ci: Pages yayin akisi" && git push
+```
+
+Ardından depo ayarlarında Pages kaynağını **GitHub Actions** yapın. Bu adım token'da
+`workflow` yetkisi gerektirdiği için ilk kurulumda atlandı.
+
+
+
 Site temiz adresler kullanır (`/products`, `/tr/urunler`, `/blog/post-name` …). Her adres için
 hazır bir HTML dosyası üretilir; yine de bilinmeyen adreslerin `index.html`'e düşmesi gerekir.
 Gerekli dosyalar hazırdır:

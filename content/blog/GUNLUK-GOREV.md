@@ -77,6 +77,15 @@ Yeni konu eklendiğinde bu tabloya bir satır yazılır ve havuzdaki satır sili
 
 ## Yayın
 
-Dosyanın klasöre girmesi "yayınlandı" sayılır: bir sonraki `pnpm build` yazıyı listeye,
-site haritasına ve o dilin RSS akışına ekler. Canlı siteye çıkması için derlemenin
-dağıtılması gerekir; bu adım henüz kurulmadı.
+Site **https://brandadverts.github.io/gamb3/** adresinde yayında (depo: `brandadverts/gamb3`,
+kaynak `main`, derlenmiş çıktı `gh-pages`).
+
+Günlük görev sekiz dosyayı yazdıktan sonra:
+
+```bash
+git add content/blog && git commit -m "content: <konu> (8 dil)" && git push
+./deploy/publish.sh
+```
+
+İlk komut yazıları kaynağa işler, ikincisi derleyip canlıya çıkarır. `publish.sh` adres
+önekini `origin`den türetir; elle bir ayar gerekmez.
