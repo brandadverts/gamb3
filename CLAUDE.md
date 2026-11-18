@@ -90,12 +90,17 @@ Bu turda düzeltilenler:
 
 Açık kalan:
 
+- **Zamanlanmış görev kaydı kalıcı değil.** 16 Kasım'da kurulan görev 17–18 Kasım'da
+  tetiklenmedi: `~/.claude/scheduled-tasks/gamb-gunluk-blog/SKILL.md` diskte duruyordu ama
+  görev kayıtlı görünmüyordu (zamanlama bilgisi ayrı yerde tutuluyor ve kaybolmuş). 18 Kasım'da
+  yeniden kaydedildi. Birkaç gün yazı üretilmezse ilk bakılacak yer burasıdır:
+  `list_scheduled_tasks` boş dönüyorsa görev yeniden kurulmalı.
+
 - Özel alan adı bağlanmadı; şu an GitHub Pages alt klasöründe yayında.
 - Canlıda iki site daha var (brandadverts/gamb kart destesi, brandadverts/gamb2 tek sayfa
   kurumsal). Üçü farklı marka yönü; hangisinde karar kılınacağı belirlenmedi.
 - `gamb2` deploy'unda canonical, head hreflang, JSON-LD ve og:image yok; TR/EN tek URL'de
   JS ile değişiyor (arama motoru tek sayfa görüyor).
-- `new-game-releases` konusunun DE, RU ve AR sürümleri hedefin altında (300 – 320 kelime).
 
 ## Kullanıcıya açıkça söylenmesi gerekenler
 
