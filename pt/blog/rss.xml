@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Blog: notas sobre infraestrutura de iGaming — Gamb Gaming</title>
+    <link>https://brandadverts.github.io/gamb3/pt/blog</link>
+    <description>Escolha de plataforma, integração, pagamentos, risco e operação — escrito para times que procuram um fornecedor.</description>
+    <language>pt</language>
+    <item>
+      <title>Quatro decisões para acelerar os saques</title>
+      <link>https://brandadverts.github.io/gamb3/pt/blog/quatro-decisoes-para-acelerar-os-saques</link>
+      <guid>https://brandadverts.github.io/gamb3/pt/blog/quatro-decisoes-para-acelerar-os-saques</guid>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 GMT</pubDate>
+      <description>O tempo de saque raramente é um problema do provedor de pagamento. É um problema de desenho de decisões.</description>
+    </item>
+    <item>
+      <title>Como os jogos novos deveriam entrar no seu lobby</title>
+      <link>https://brandadverts.github.io/gamb3/pt/blog/como-jogos-novos-entram-no-lobby</link>
+      <guid>https://brandadverts.github.io/gamb3/pt/blog/como-jogos-novos-entram-no-lobby</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Toda semana saem dezenas de jogos. A diferença não é ter todos no lobby, e sim saber por que cada um está lá.</description>
+    </item>
+    <item>
+      <title>Como tirar uma licença de jogos online em Andorra</title>
+      <link>https://brandadverts.github.io/gamb3/pt/blog/licenca-de-jogos-online-em-andorra</link>
+      <guid>https://brandadverts.github.io/gamb3/pt/blog/licenca-de-jogos-online-em-andorra</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>A lei existe, a categoria de licença existe, o balcão não. Onde Andorra está hoje e o que dá para preparar desde já.</description>
+    </item>
+    <item>
+      <title>O que os novos tipos de aposta exigem da sua plataforma</title>
+      <link>https://brandadverts.github.io/gamb3/pt/blog/o-que-os-novos-tipos-de-aposta-exigem</link>
+      <guid>https://brandadverts.github.io/gamb3/pt/blog/o-que-os-novos-tipos-de-aposta-exigem</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Criar aposta, apostas em jogador, microapostas. Cada tipo novo é um botão na frente e uma carga bem diferente por trás.</description>
+    </item>
+    <item>
+      <title>Os primeiros 30 dias de uma migração de plataforma</title>
+      <link>https://brandadverts.github.io/gamb3/pt/blog/os-primeiros-30-dias-de-uma-migracao</link>
+      <guid>https://brandadverts.github.io/gamb3/pt/blog/os-primeiros-30-dias-de-uma-migracao</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>A maioria das migrações atrasa por motivos que não são técnicos — o problema é a ordem do trabalho.</description>
+    </item>
+    <item>
+      <title>Dez perguntas para fazer a um fornecedor de plataforma</title>
+      <link>https://brandadverts.github.io/gamb3/pt/blog/dez-perguntas-para-um-fornecedor-de-plataforma</link>
+      <guid>https://brandadverts.github.io/gamb3/pt/blog/dez-perguntas-para-um-fornecedor-de-plataforma</guid>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Na demo, toda plataforma funciona. A diferença aparece no primeiro dia de rodada cheia depois do lançamento.</description>
+    </item>
+  </channel>
+</rss>

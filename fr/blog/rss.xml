@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Blog : notes sur l'infrastructure iGaming — Gamb Gaming</title>
+    <link>https://brandadverts.github.io/gamb3/fr/blog</link>
+    <description>Choix de plateforme, intégration, paiements, risque et exploitation — écrit pour les équipes qui cherchent un fournisseur.</description>
+    <language>fr</language>
+    <item>
+      <title>Quatre décisions pour accélérer les retraits</title>
+      <link>https://brandadverts.github.io/gamb3/fr/blog/quatre-decisions-pour-accelerer-les-retraits</link>
+      <guid>https://brandadverts.github.io/gamb3/fr/blog/quatre-decisions-pour-accelerer-les-retraits</guid>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Le délai de retrait relève rarement du prestataire de paiement. C'est un problème de conception des décisions.</description>
+    </item>
+    <item>
+      <title>Les 30 premiers jours d'une migration de plateforme</title>
+      <link>https://brandadverts.github.io/gamb3/fr/blog/les-30-premiers-jours-d-une-migration</link>
+      <guid>https://brandadverts.github.io/gamb3/fr/blog/les-30-premiers-jours-d-une-migration</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>La plupart des migrations dérapent pour des raisons qui ne sont pas techniques : le mauvais ordre.</description>
+    </item>
+    <item>
+      <title>Comment obtenir une licence de jeux en ligne en Andorre ?</title>
+      <link>https://brandadverts.github.io/gamb3/fr/blog/licence-jeux-en-ligne-andorre</link>
+      <guid>https://brandadverts.github.io/gamb3/fr/blog/licence-jeux-en-ligne-andorre</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>La loi existe, la catégorie de licence existe, le guichet n'est pas ouvert. Où en est l'Andorre et ce que l'on peut préparer dès maintenant.</description>
+    </item>
+    <item>
+      <title>Comment faire entrer les nouveaux jeux dans votre lobby</title>
+      <link>https://brandadverts.github.io/gamb3/fr/blog/nouveaux-jeux-dans-le-lobby</link>
+      <guid>https://brandadverts.github.io/gamb3/fr/blog/nouveaux-jeux-dans-le-lobby</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Des dizaines de jeux sortent chaque semaine. L'enjeu n'est pas de tous les afficher, mais de savoir pourquoi chacun est là.</description>
+    </item>
+    <item>
+      <title>Ce que les nouveaux types de paris exigent de votre plateforme</title>
+      <link>https://brandadverts.github.io/gamb3/fr/blog/nouveaux-types-de-paris-et-plateforme</link>
+      <guid>https://brandadverts.github.io/gamb3/fr/blog/nouveaux-types-de-paris-et-plateforme</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Bet builder, paris sur joueurs, micro-paris. Chaque nouveau type de pari, c'est un bouton en façade et une tout autre charge derrière.</description>
+    </item>
+    <item>
+      <title>Dix questions à poser à un fournisseur de plateforme</title>
+      <link>https://brandadverts.github.io/gamb3/fr/blog/dix-questions-a-poser-a-un-fournisseur</link>
+      <guid>https://brandadverts.github.io/gamb3/fr/blog/dix-questions-a-poser-a-un-fournisseur</guid>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 GMT</pubDate>
+      <description>En démo, tout le monde est bon. La différence apparaît au premier gros soir de match.</description>
+    </item>
+  </channel>
+</rss>

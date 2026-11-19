@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Блог: заметки об инфраструктуре iGaming — Gamb Gaming</title>
+    <link>https://brandadverts.github.io/gamb3/ru/blog</link>
+    <description>Выбор платформы, интеграция, платежи, риск и операции — для команд, которые ищут поставщика.</description>
+    <language>ru</language>
+    <item>
+      <title>Четыре решения, которые ускоряют вывод средств</title>
+      <link>https://brandadverts.github.io/gamb3/ru/blog/chetyre-resheniya-uskoryayushchie-vyvod-sredstv</link>
+      <guid>https://brandadverts.github.io/gamb3/ru/blog/chetyre-resheniya-uskoryayushchie-vyvod-sredstv</guid>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Срок вывода редко упирается в платёжного провайдера. Это вопрос того, как устроены решения.</description>
+    </item>
+    <item>
+      <title>Что новые типы ставок требуют от платформы</title>
+      <link>https://brandadverts.github.io/gamb3/ru/blog/chto-novye-tipy-stavok-trebuyut-ot-platformy</link>
+      <guid>https://brandadverts.github.io/gamb3/ru/blog/chto-novye-tipy-stavok-trebuyut-ot-platformy</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Бет-билдер, ставки на игроков, микроставки. Каждый новый тип ставки — одна кнопка на витрине и совсем другая нагрузка за ней.</description>
+    </item>
+    <item>
+      <title>Как новые игры должны попадать в лобби</title>
+      <link>https://brandadverts.github.io/gamb3/ru/blog/kak-novye-igry-popadayut-v-lobbi</link>
+      <guid>https://brandadverts.github.io/gamb3/ru/blog/kak-novye-igry-popadayut-v-lobbi</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Каждую неделю выходят десятки игр. Разница не в том, чтобы показать все, а в том, чтобы знать, зачем каждая на своём месте.</description>
+    </item>
+    <item>
+      <title>Как получить лицензию на онлайн-гемблинг в Андорре</title>
+      <link>https://brandadverts.github.io/gamb3/ru/blog/licenziya-na-onlajn-azartnye-igry-v-andorre</link>
+      <guid>https://brandadverts.github.io/gamb3/ru/blog/licenziya-na-onlajn-azartnye-igry-v-andorre</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Закон есть, класс лицензии есть, а окна для заявок нет. Где сейчас Андорра и что можно готовить уже сегодня.</description>
+    </item>
+    <item>
+      <title>Первые 30 дней миграции платформы</title>
+      <link>https://brandadverts.github.io/gamb3/ru/blog/pervye-30-dnej-migracii-platformy</link>
+      <guid>https://brandadverts.github.io/gamb3/ru/blog/pervye-30-dnej-migracii-platformy</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Большинство миграций срываются не по техническим причинам — неправильно выстроен порядок работ.</description>
+    </item>
+    <item>
+      <title>Десять вопросов поставщику платформы</title>
+      <link>https://brandadverts.github.io/gamb3/ru/blog/desyat-voprosov-postavshchiku-platformy</link>
+      <guid>https://brandadverts.github.io/gamb3/ru/blog/desyat-voprosov-postavshchiku-platformy</guid>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 GMT</pubDate>
+      <description>На демо всё работает у всех. Разница видна в первый тяжёлый игровой день после запуска.</description>
+    </item>
+  </channel>
+</rss>

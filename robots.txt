@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /gamb3/admin
+Disallow: /gamb3/panel
+
+Sitemap: https://brandadverts.github.io/gamb3/sitemap.xml

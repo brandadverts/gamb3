@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Blog: notes on iGaming infrastructure — Gamb Gaming</title>
+    <link>https://brandadverts.github.io/gamb3/blog</link>
+    <description>Platform selection, integration, payments, risk and operations — written for teams shopping for a provider.</description>
+    <language>en</language>
+    <item>
+      <title>Four decisions that shorten withdrawal approval</title>
+      <link>https://brandadverts.github.io/gamb3/blog/four-decisions-that-shorten-withdrawal-approval</link>
+      <guid>https://brandadverts.github.io/gamb3/blog/four-decisions-that-shorten-withdrawal-approval</guid>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Withdrawal time is rarely a payments problem. It is a decision-design problem, and four choices fix most of it.</description>
+    </item>
+    <item>
+      <title>How to get an Andorra online gambling licence</title>
+      <link>https://brandadverts.github.io/gamb3/blog/andorra-online-gambling-licence</link>
+      <guid>https://brandadverts.github.io/gamb3/blog/andorra-online-gambling-licence</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>The law is there, the licence class is there, the application door is not. Where Andorra's online licence stands today and what you can prepare now.</description>
+    </item>
+    <item>
+      <title>How new game releases should enter your lobby</title>
+      <link>https://brandadverts.github.io/gamb3/blog/how-new-game-releases-should-enter-the-lobby</link>
+      <guid>https://brandadverts.github.io/gamb3/blog/how-new-game-releases-should-enter-the-lobby</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Dozens of new games ship every week. The difference is not having them all in the lobby but knowing why each one is there.</description>
+    </item>
+    <item>
+      <title>The first 30 days of a platform migration</title>
+      <link>https://brandadverts.github.io/gamb3/blog/the-first-30-days-of-a-platform-migration</link>
+      <guid>https://brandadverts.github.io/gamb3/blog/the-first-30-days-of-a-platform-migration</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Most migrations slip for reasons that are not technical — the order of the work is wrong.</description>
+    </item>
+    <item>
+      <title>What new bet types ask of your platform</title>
+      <link>https://brandadverts.github.io/gamb3/blog/what-new-bet-types-ask-of-your-platform</link>
+      <guid>https://brandadverts.github.io/gamb3/blog/what-new-bet-types-ask-of-your-platform</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Bet builders, player props, micro-betting. Every new bet type is one button on the front end and a different workload behind it.</description>
+    </item>
+    <item>
+      <title>Ten questions to ask a platform provider</title>
+      <link>https://brandadverts.github.io/gamb3/blog/ten-questions-for-a-platform-provider</link>
+      <guid>https://brandadverts.github.io/gamb3/blog/ten-questions-for-a-platform-provider</guid>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 GMT</pubDate>
+      <description>The demo looks good everywhere. What separates providers is what shows up on the first heavy matchday.</description>
+    </item>
+  </channel>
+</rss>
