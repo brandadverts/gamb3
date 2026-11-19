@@ -38,7 +38,6 @@ Seçim sırayla değil, günün mantığına göre yapılır; aynı başlık iki
 - Ortak cüzdan ile ayrı cüzdan arasındaki gerçek fark
 
 **Ödeme ve finans**
-- Çekim onay süresini kısaltan dört karar
 - Mutabakat farkı çıktığında izlenecek yol
 - Yerel ödeme yöntemi eklerken sorulacaklar
 - Kripto ödemede ağ seçimi ve onay sayısı
@@ -72,6 +71,7 @@ Seçim sırayla değil, günün mantığına göre yapılır; aynı başlık iki
 | `new-game-releases` | 2026-11-16 |
 | `new-bet-types` | 2026-11-16 |
 | `andorra-online-licence` | 2026-11-16 |
+| `faster-withdrawal-approvals` | 2026-11-19 |
 
 Yeni konu eklendiğinde bu tabloya bir satır yazılır ve havuzdaki satır silinir.
 
